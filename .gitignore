@@ -1,0 +1,9 @@
+/node_modules/
+/bower_components/
+/spm_modules
+/lib
+.gist
+*.log
+*.sublime-project
+*.sublime-workspace
+npm-debug.log

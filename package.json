@@ -5,7 +5,7 @@
   "main": "./index.js",
   "preferGlobal": "true",
   "bin": {
-    "snip": "./index.js"
+    "ecopy": "./index.js"
   },
   "scripts": {
     "compile": "babel src -d lib",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:yuwancumian/snipper.git"
+    "url": "git@github.com:yuwancumian/ecopy.git"
   },
   "keywords": [
     "keyword1",
@@ -23,9 +23,9 @@
   "author": "yuwancumian",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yuwancumian/snipper/issues"
+    "url": "https://github.com/yuwancumian/ecopy/issues"
   },
-  "homepage": "https://github.com/yuwancumian/snipper",
+  "homepage": "https://github.com/yuwancumian/ecopy",
   "dependencies": {
     "babel-polyfill": "^6.9.1",
     "yargs": "^4.7.1"

@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import cfg from '../config'
 import fs from 'fs'
+import path from 'path'
 
 function copy(){
     let snip
@@ -12,8 +13,9 @@ function copy(){
     if (!!process.argv[3]){
         let item = process.argv[2]
         let snip = process.argv[3]
+        let config = path.resolve(__dirname,'../config.json')
         cfg[item] = snip
-        fs.writeFile('config.json',JSON.stringify(cfg,null,4),function(err){
+        fs.writeFile(config,JSON.stringify(cfg,null,4),function(err){
             if (err) throw err;
             console.log(item +' was cached!');
         })

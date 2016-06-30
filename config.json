@@ -10,7 +10,6 @@
     "mustuche": "http://cdn.staticfile.org/mustache.js/0.8.1/mustache.js",
     "require": "http://cdn.bootcss.com/require.js/2.1.17/require.js",
     "react": "http://egetjs.b0.upaiyun.com/libs/react-0.14.3.js",
-    "jsx": "http://easier.b0.upaiyun.com/JSXTransformer.js",
     "ignore": "http://easier.b0.upaiyun.com/.gitignore",
     "jshint": "http://easier.b0.upaiyun.com/.jshintrc",
     "package": "http://7lrxoq.com1.z0.glb.clouddn.com/package.json",
@@ -24,5 +23,7 @@
     "vagrant_init": "http://egetjs.b0.upaiyun.com/libs/vagrant_init.sh",
     "wordpress": "https://wordpress.org/latest.tar.gz",
     "wp-api": "https://downloads.wordpress.org/plugin/rest-api.2.0-beta13.1.zip",
-    "hah": "anotherte"
+    "acf": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.7.zip",
+    "ssh": "ssh deployer@111.222.111.123",
+    "hah": "hahahahahaha"
 }

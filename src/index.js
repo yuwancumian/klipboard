@@ -6,24 +6,22 @@ import clip from 'cliparoo'
 import chalk from 'chalk'
 
 function copy(){
-    let snip
     let item = process.argv[2]
-    if (!process.argv[2] || process.argv[2] === "") {
+    let snip = process.argv[3]
+    if (!item || item === "") {
         console.log('Sorry, a filename must be assigned!')
         return
     }
-    if (process.argv[2] === 'ls'){
+    if (snip === 'ls'){
         console.log('ls') 
         return 
     }
-    if (cfg[item] === undefined) {
-        console.log( "Sorry, " + item + " was not uncached ...")
+    if (!snip && cfg[item] === undefined) {
+        console.log( "Sorry, " + chalk.blue(item) + " was not uncached ...")
         return 
     }
     
-    if (!!process.argv[3]){
-        let item = process.argv[2]
-        let snip = process.argv[3]
+    if (!!snip){
         let config = path.resolve(__dirname,'../config.json')
         
         cfg[item] = snip
@@ -31,11 +29,13 @@ function copy(){
             if (err) throw err
             console.log(item +' was cached!')
         })
+    } else {
+        clip(cfg[item],function(err){
+            if (err) throw err
+            console.log(chalk.gray('copied'))
+        });
     }
-    clip(cfg[item],function(err){
-        if (err) throw err
-        console.log(chalk.green('copied'))
-    });
+    
 }
 
 export default copy()

@@ -1,5 +1,4 @@
 {
-    "jquery": "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js",
     "backbone": "http://cdn.staticfile.org/backbone.js/1.1.2/backbone.js",
     "underscore": "https://lib.sinaapp.com/js/underscore/1.4.4/underscore.js",
     "zepto": "https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js",
@@ -24,6 +23,6 @@
     "wordpress": "https://wordpress.org/latest.tar.gz",
     "wp-api": "https://downloads.wordpress.org/plugin/rest-api.2.0-beta13.1.zip",
     "acf": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.7.zip",
-    "ssh": "ssh deployer@111.222.111.123",
-    "hah": "hahahahahaha"
+    "ssh": "ssh deployer@111.222.111.222",
+    "jquery": "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"
 }

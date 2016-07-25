@@ -1,7 +1,7 @@
 ## A cli clipboard tool for cache some useful snippet
 
 ### Install
-`npm install klipboard`
+`npm install klipboard -g`
 
 ### Usage
 ```

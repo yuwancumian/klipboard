@@ -1,10 +1,11 @@
 {
+    "jquery": "http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js",
     "backbone": "http://cdn.staticfile.org/backbone.js/1.1.2/backbone.js",
     "underscore": "https://lib.sinaapp.com/js/underscore/1.4.4/underscore.js",
     "zepto": "https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js",
     "bootjs": "http://cdn.staticfile.org/twitter-bootstrap/3.3.1/js/bootstrap.js",
     "bootcss": "http://cdn.staticfile.org/twitter-bootstrap/3.3.1/css/bootstrap.css",
-    "normalize": "http://easier.b0.upaiyun.com/css/normalize.css",
+    "normalize": "https://necolas.github.io/normalize.css/4.1.1/normalize.css",
     "modernizr": "http://easier.b0.upaiyun.com/js/modernizr-2.6.2.min.js",
     "mustuche": "http://cdn.staticfile.org/mustache.js/0.8.1/mustache.js",
     "require": "http://cdn.bootcss.com/require.js/2.1.17/require.js",
@@ -23,6 +24,5 @@
     "wordpress": "https://wordpress.org/latest.tar.gz",
     "wp-api": "https://downloads.wordpress.org/plugin/rest-api.2.0-beta13.1.zip",
     "acf": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.7.zip",
-    "ssh": "ssh deployer@111.222.111.222",
-    "jquery": "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"
+    "ssh1": "ssh deployer@111.222.111.123"
 }

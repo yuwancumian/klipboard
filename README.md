@@ -1,10 +1,10 @@
 ## A cli clipboard tool 
 
-#### Install 
+### Install 
 
 `npm install klipboard -g`
 
-#### Usage
+### Usage
 
 ``` 
 //cache your item 
@@ -13,7 +13,7 @@ klip jquery https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.mi
 klip jquery 
 ```
 
-#### Cached 
+### Cached 
 
 These assets was cached already.
 

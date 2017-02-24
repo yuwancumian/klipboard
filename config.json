@@ -9,11 +9,11 @@
     "modernizr": "http://easier.b0.upaiyun.com/js/modernizr-2.6.2.min.js",
     "mustuche": "http://cdn.staticfile.org/mustache.js/0.8.1/mustache.js",
     "require": "http://cdn.bootcss.com/require.js/2.1.17/require.js",
-    "react": "http://egetjs.b0.upaiyun.com/libs/react-0.14.3.js",
+    "react": "https://unpkg.com/react@15.1.0/dist/react.min.js",
     "ignore": "http://easier.b0.upaiyun.com/.gitignore",
     "jshint": "http://easier.b0.upaiyun.com/.jshintrc",
     "package": "http://7lrxoq.com1.z0.glb.clouddn.com/package.json",
-    "react-dom": "http://egetjs.b0.upaiyun.com/libs/react-dom-0.14.3.js",
+    "react-dom": "https://unpkg.com/react-dom@15.1.0/dist/react-dom.min.js",
     "webpack.config": "http://egetjs.b0.upaiyun.com/libs/webpack.config.js",
     "package.json": "http://egetjs.b0.upaiyun.com/libs/package.json",
     "seajs": "http://egetjs.b0.upaiyun.com/libs/sea.js",
@@ -24,5 +24,13 @@
     "wordpress": "https://wordpress.org/latest.tar.gz",
     "wp-api": "https://downloads.wordpress.org/plugin/rest-api.2.0-beta13.1.zip",
     "acf": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.7.zip",
-    "ssh1": "ssh deployer@111.222.111.123"
+    "ssh1": "ssh deployer@111.222.111.123",
+    "redux": "https://unpkg.com/redux@3.6.0/dist/redux.min.js",
+    "ip": "172.20.12.134",
+    "react-router": "https://cdnjs.cloudflare.com/ajax/libs/react-router/2.8.1/ReactRouter.js",
+    "addons": "https://npmcdn.com/react@15.3.2/dist/react-with-addons.js",
+    "mobx": "https://unpkg.com/mobx/lib/mobx.umd.js",
+    "mobx-react": "https://unpkg.com/mobx-react@3.5.8",
+    "vue": "http://cdn.bootcss.com/vue/2.0.3/vue.min.js",
+    "vue-router": "http://cdn.bootcss.com/vue-router/2.0.1/vue-router.min.js"
 }
